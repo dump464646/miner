@@ -1,0 +1,18 @@
+{
+  "name": "miner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "win": "pm2 start win_up.js && pm2 start miner_down.js",
+    "linux": "pm2 start linux_up.js && pm2 start miner_down.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "pm2": "^5.2.0",
+    "shelljs": "^0.8.5"
+  }
+}

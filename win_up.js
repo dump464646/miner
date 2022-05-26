@@ -7,7 +7,8 @@ const job = new CronJob({
     console.log(`Miner started: ${new Date()}`);
     shell.exec('pm2 start start_win.bat --interpreter none --name miner');
   },
-  start: true,
+  start: false,
+  runOnInit: true,
   timeZone: 'UTC',
 });
 

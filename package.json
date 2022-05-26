@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "win": "pm2 start win_up.js && pm2 start miner_down.js",
+    "win_loop": "pm2 start win_loop.js",
     "linux": "pm2 start linux_up.js && pm2 start miner_down.js",
+    "linux_loop": "pm2 start linux_loop.js",
     "linux_arm": "pm2 start linux_arm_up.js && pm2 start miner_down.js"
   },
   "keywords": [],

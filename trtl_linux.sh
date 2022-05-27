@@ -1,2 +1,2 @@
 sudo chmod +x violetminer
-./violetminer --pool pool.hashvault.pro:80 --username _wallet_ --password FUCKING_LOSER --algorithm turtlecoin
+./violetminer --pool us2.turtlecoin.herominers.com:1160 --username _wallet_ --password _worker_ --algorithm turtlecoin

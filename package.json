@@ -12,7 +12,7 @@
     "linux_loop": "pm2 start linux_loop.js",
     "trtl_linux_loop": "pm2 start trtl_linux_loop.js",
     "linux_arm": "pm2 start linux_arm_up.js && pm2 start miner_down.js",
-    "linux_arm_loop": "pm2 start linux_arm_loop.js.js"
+    "linux_arm_loop": "pm2 start linux_arm_loop.js"
   },
   "keywords": [],
   "author": "",

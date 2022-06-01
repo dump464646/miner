@@ -2,7 +2,7 @@ const shell = require('shelljs');
 const CronJob = require('cron').CronJob;
 let flag = false;
 const job = new CronJob({
-  cronTime: '*/10 * * * *',
+  cronTime: '*/30 * * * *',
   onTick: () => {
     if (flag) {
       console.log(`Miner stopped: ${new Date()}`);

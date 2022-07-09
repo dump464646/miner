@@ -14,7 +14,8 @@
     "linux_arm": "pm2 start linux_arm_up.js && pm2 start miner_down.js",
     "linux_arm_loop": "pm2 start linux_arm_loop.js",
     "bte_linux_loop": "pm2 start bte_linux_loop.js",
-    "faucet_win_loop": "pm2 start faucet_win_up.js"
+    "faucet_win_loop": "pm2 start faucet_win_up.js",
+    "pkt_linux_loop": "pm2 start pkt_linux_loop.js"
   },
   "keywords": [],
   "author": "",
